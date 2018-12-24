@@ -2,8 +2,6 @@ from keras.preprocessing.image import img_to_array
 from keras.preprocessing.image import load_img
 
 from keras.applications.densenet import DenseNet121
-#from keras.applications.densenet import DenseNet169
-#from keras.applications.densenet import DenseNet201
 from keras.applications.densenet import preprocess_input, decode_predictions
 import PIL.Image
 
